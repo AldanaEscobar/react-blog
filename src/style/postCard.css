@@ -1,0 +1,37 @@
+/* PostCard.css */
+
+.PostCard {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .PostCard img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 0.5rem;
+  }
+  
+  .PostCard:hover img {
+    transform: scale(1.05);
+  }
+  
+  .PostCard p {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* .PostCard .user-info,
+  .PostCard .date-likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+   */
+  .PostCard .like-heart {
+    color: red; 
+  }
+  
