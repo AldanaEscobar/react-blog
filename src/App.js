@@ -19,9 +19,11 @@ function App() {
     <div className="App">
       <div>
         <h1>Conoce todas nuestras notas:</h1>
+        <div className="PostCardContainer">
         {posts.map((post) => (
           <PostCard key={post.id} post={post} />
         ))}
+        </div>
       </div>
     </div>
   );
