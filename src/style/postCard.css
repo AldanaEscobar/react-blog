@@ -42,3 +42,12 @@
   margin: 1rem;
   text-align: end;
 }
+.tagPost {
+  margin: 0.2rem;
+  cursor: pointer; 
+  transition: font-weight 0.3s ease; 
+}
+
+.tagPost:hover {
+  font-weight: bold; 
+}
