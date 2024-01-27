@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import fetchPosts from "./services/postService";
 import PostCard from "./compnents/posts";
-import { BrowserRouter as Router } from 'react-router-dom';
-import TagFilter from "./compnents/tagFilter";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   const [posts, setPosts] = useState([]);
