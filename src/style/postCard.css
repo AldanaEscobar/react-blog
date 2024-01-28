@@ -6,7 +6,6 @@
 }
 .PostCard {
   position: relative;
-  overflow: hidden;
   margin: 0.5rem;
 }
 
@@ -51,4 +50,17 @@
 
 .tagPost:hover {
   font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+  .PostCardContainer {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 770px) {
+  .PostCardContainer {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.5rem;
+  }
 }
